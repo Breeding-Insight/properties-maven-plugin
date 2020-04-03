@@ -59,7 +59,7 @@
 
   <properties>
     <maven.api.version>3.6.3</maven.api.version>
-    <mojo.java.target>1.5</mojo.java.target>
+    <mojo.java.target>6</mojo.java.target>
     <scmpublish.content>target/staging/${project.artifactId}</scmpublish.content>
   </properties>
 
