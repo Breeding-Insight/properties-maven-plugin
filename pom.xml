@@ -54,11 +54,11 @@
   </licenses>
 
   <prerequisites>
-    <maven>2.2.1</maven>
+    <maven>3.6.3</maven>
   </prerequisites>
 
   <properties>
-    <maven.api.version>2.2.1</maven.api.version>
+    <maven.api.version>3.6.3</maven.api.version>
     <mojo.java.target>1.5</mojo.java.target>
     <scmpublish.content>target/staging/${project.artifactId}</scmpublish.content>
   </properties>
