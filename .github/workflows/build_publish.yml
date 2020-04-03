@@ -18,7 +18,7 @@ jobs:
           java-version: 6
 
       - name: Build with Maven
-        run: ./mvnw --show-version --errors --batch-mode clean verify
+        run: mvn -B package --file pom.xml
 
       - name: Publish to GitHub Packages Apache Maven
         run: mvn deploy
