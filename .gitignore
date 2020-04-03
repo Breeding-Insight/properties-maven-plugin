@@ -2,3 +2,7 @@ target
 .settings
 .project
 .classpath
+Maven__*
+.idea
+.DS_Store
+/properties-maven-plugin.iml
