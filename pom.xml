@@ -21,26 +21,6 @@
 
 <project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-  <pluginRepositories>
-    <pluginRepository>
-      <id>central</id>
-      <url>https://repo1.maven.org/maven2</url>
-      <releases><enabled>true</enabled></releases>
-      <snapshots><enabled>false</enabled></snapshots>
-    </pluginRepository>
-  </pluginRepositories>
-  <repositories>
-    <repository>
-      <id>central</id>
-      <name>Central Repository</name>
-      <url>https://repo.maven.apache.org/maven2</url>
-      <layout>default</layout>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
-  </repositories>
-
   <parent>
     <artifactId>mojo-parent</artifactId>
     <groupId>org.codehaus.mojo</groupId>
