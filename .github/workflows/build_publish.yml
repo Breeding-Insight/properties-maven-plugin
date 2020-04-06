@@ -18,7 +18,7 @@ jobs:
           java-version: 6
 
       - name: Build with Maven
-        run: ./mvnw --show-version --errors --batch-mode --settings ./settings.xml clean verify
+        run: ./mvnw --show-version --errors --batch-mode --settings ./settings.xml -Dhttps.protocols=TLSv1.2 clean verify
 
       - name: Publish to GitHub Packages Apache Maven
         run: mvn deploy
